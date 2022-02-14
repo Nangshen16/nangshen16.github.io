@@ -1,13 +1,19 @@
  body{
-    background-color: #134449;
-}
+    background-color: #be552e;
+} 
 #pinkbox{
     height: 100%;
     background-color:#E4D4C8;
+    
 
     
 }
 
+.box1{
+    padding-left: 3%;
+    
+   
+}
 .box1 img {
     border: 5px solid navy;
     float: right;
@@ -26,7 +32,7 @@
 }
 .box2 p{
     text-align: left;
-    font-family: ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #738B19;
 
 
@@ -37,14 +43,19 @@
     color: #be552e;
     
     
+    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box3{
+    padding-right: 5%;
 }
 .box3 img{
     border: 3px solid beige;
     border-spacing: 3em 1em;
-    float: right;
+    float: left;
     width: 40%;
     height: 60%;
+    
 
 }
 .box4 img{
@@ -55,11 +66,12 @@
 }
 hr{
     
-    margin-top: 12%;
+    margin-top: 4%;
 
 }
 h2{
-    color:#d45216 ;
+    color:green ;
+    font-weight: bolder;
     margin:30px 30;
 }
 p{
@@ -85,7 +97,7 @@ p{
 
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:#d45216;
+    color:whitesmoke;
 }
 
 
@@ -103,12 +115,12 @@ h1{
 
 }
 
-#navbar {
+/* #navbar {
     border: 3px solid #81B622 ;
     background-color: gold;
     margin-top: 50%;
 
-}
+} */
 .home{
     background-color: palevioletred;
 }
@@ -165,16 +177,18 @@ dl{
 }
 table {
     border: 2px solid #d45216;
+    background-color: lightgray;
 }
 .cost{
-    background-color: bisque;
+    background-color:greenyellow;
 }
 .price{
-    background-color: blanchedalmond;
+    background-color: greenyellow;
 }
 .total, .hm{
-    background-color: blanchedalmond;
+    background-color: greenyellow;
 }
 address{
     padding-left: 5%;
 }
+

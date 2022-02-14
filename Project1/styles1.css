@@ -1,0 +1,146 @@
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+ /* figure .page2{
+    float: right;
+    padding:150px;
+
+} */
+
+/* figure{
+    float: inline-start;
+    width: 33.33%;
+    padding: 50px;
+} */
+/* figure > img {
+    width: 100%;
+    border: 2px solid lightblue;
+} */
+ 
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    /* border: 2px solid lightblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 4%;  
+    */
+   
+    /* text-align: center; */
+    
+    /* height: 20%; */
+    /* margin-left: 2%; */
+    /* margin-bottom: 10%; */
+    
+
+
+#container1{
+    height: 100%;
+    background-color:white;
+    
+
+    
+}
+#container1 .pic2{
+    border: 5px solid navy;
+    float: right;
+    width: 40%;
+    height: 60%;
+    margin-bottom: 100px;
+}
+#container1 p{
+    border: 2px solid lightblue;
+    background-color: lightseagreen;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    width: 18%;
+    height: 50%;
+    float: right;
+    
+    /* margin-top: 20%; */
+
+}
+ figcaption{
+    margin-top: 43%;
+    font-size: 20px;
+    font-family: monospace;
+    text-align:justify;
+
+}
+img {
+    border: 2px solid black;
+    
+    /* float: left; */
+}
+img.pic1{
+    width: 40%;
+    float:left;
+    height: 40%;
+}
+img.pic2{
+    width: 40%;
+    float: right;
+    height: 40%;
+    
+}
+
+ /* .pic1 img{
+     float: right;
+   
+    
+}
+img .pic2{
+   float: right; 
+   width: 88%;
+     */
+
+
+
+
+#navbar{
+    /* list-style-type: none;
+    width: 50%; */
+    /* text-align: center; */
+    /* background-color: rgb(157, 129, 129); */
+    height: 100%;
+   
+    margin-top: 1%;
+    font-weight: bold;
+    /* font-size: 20px;
+    padding: 0; */
+    
+}
+#navbar >li{
+    
+    
+    float: left;
+    display: inline;
+    width: 25%;
+    
+
+
+    
+    
+}
+#navbar >li>a{
+    
+    
+    text-align: center;
+    text-decoration: center;
+    padding: 24px 30%;
+    display: inline-block;
+    width: 25%;
+    
+
+}
+#navbar > li > a:hover {
+    background-color: #d45216;
+    color: khaki;
+
+}
