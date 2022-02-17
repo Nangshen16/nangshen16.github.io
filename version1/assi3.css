@@ -1,0 +1,35 @@
+.container1{
+    
+
+}
+.container > img {
+    
+}
+
+.textbox{
+    background-color:rgb(187, 195,201, 0.4);
+    top: 43%;
+    left: 5%;
+    position:absolute;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color:black;
+    padding: 1%;
+    
+   
+    
+    
+}
+ a {
+    /* animation: button 3s infinite; */
+    text-decoration: none;
+    background-color: wheat;
+    /* animation-name: button; */
+    
+}
+/* @keyframes button {
+    0% {margin-left: 0%;} 
+
+   33%{margin-left: -100%;}
+} */
