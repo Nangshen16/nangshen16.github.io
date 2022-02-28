@@ -1,6 +1,9 @@
 console.log(Math.trunc(Math.random()));
 
 console.log('Welcome to my Game Web App')
+//first I print message inside the console.log to test the javascript code
+ //set the value to center
+
 
 //styling the h1 using DOM method
 //text shadow porperty sets the shadow effect for h1
@@ -68,6 +71,7 @@ h1_s.style.textAlign = 'center';
   console.log(btn);
 
   //set guess history box
+  //i declare the variable with const to get the document.query method which can return the first elemnt that matches a CSS selector 
   const guessH = document.querySelector('.guesshist');
   guessH.style.width = '50%'
   guessH.style.height ='10%';
@@ -95,6 +99,7 @@ score_box.width='30%';
 
 
 //edit the mdlwindow
+//, I declared the btn to set the value of btn
 const reset_btn=document.querySelector('.btn1')
 reset_btn.href='pj3.html';
 reset_btn.style.textDecoration ='none';
@@ -102,11 +107,15 @@ reset_btn.style.color='black';
 reset_btn.style.fontSize='89%';
 
 //append the list of history into guess history box
-// const hist = document.querySelector('ul.history');
+//  const hist = document.querySelector('ul.history');
 // hist.style.textDecoration=none;
 
 
 //print the number inside the html website
+//to implement this game functionally, first prceudure and add event listener to the button so the user can click a button and print value 
+//I use if else conditional statements to restore the numbers and excute the value of the input  so the player can guess the number
+//i used HTML DOM method to restore the set or change the values of the property so the user can see the result of the games.
+// I added to change the color of the background and color  
 btn.addEventListener('click', function(){
     if(Number(userInput.value) ===92){
         image.src='https://i.gifer.com/9Ry5.gif';
@@ -125,9 +134,15 @@ btn.addEventListener('click', function(){
 
         // hist.textContent=userInput.value
         // guessH.appendChild ='userInput.value'
-        
+    }else if(Number(userInput.value==null || userInput.value=='')){
+        h4_guess.textContent='Invalid value! Please type the number between 1 and 100 '
+    
+    }else if (Number(userInput.value>92)){
+        h4_guess.textContent='Your Guess is too High';
 
-
+    // }else if (Number(userInput.value<92)){
+    //     h4_guess.textContent='Your Guess is too low';
+              
     }else{
         image.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI79pWPugwH0ATSxW5nv_-1UHptPfKxNB3EQ&usqp=CAU';
         main.style.backgroundColor='red';
@@ -142,7 +157,7 @@ btn.addEventListener('click', function(){
         score_box.textContent='Score: 0'
         btn.href='pj3.html';
         // guessH.appendChild ='userInput.value'
-        hist.textContent=userInput.value
+        // hist.textContent=userInput.value
         
 
 
